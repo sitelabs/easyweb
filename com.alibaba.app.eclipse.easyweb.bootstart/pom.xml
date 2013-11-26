@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.alibaba</groupId>
+		<artifactId>a2m.china</artifactId>
+		<version>2</version>
+	</parent>
+	<groupId>com.alibaba.china.app</groupId>
+	<artifactId>com.alibaba.app.eclipse.easyweb.bootstart</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>com.alibaba.app.eclipse.easyweb.bootstart</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>GBK</project.build.sourceEncoding>
+		<java_source_version>1.6</java_source_version>
+		<java_target_version>1.6</java_target_version>
+	</properties>
+
+	<dependencies>
+	<dependency>
+			<groupId>com.alibaba.china.shared</groupId>
+			<artifactId>courier.runtime</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		
+	</dependencies>
+</project>

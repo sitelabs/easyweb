@@ -1,0 +1,17 @@
+
+{
+	"result": [{
+		"name": "gondar.all",
+		"path": "/Users/joe/work/gondar",
+		"antx": [""],
+		"branch": [""],
+		"appPort": 7001,
+		"port": 80,
+		"apjPort": 8443,
+		"status": false,
+		"prjNames": ["gondar.common.config-1.0-SNAPSHOT", "gondar.deploy-1.0-SNAPSHOT", "gondar.bundle.war-1.0-SNAPSHOT", "gondar.task-1.0-SNAPSHOT"],
+		"webinf": "/Users/joe/work/gondar/bundle/war/src/webroot",
+		"selectedPrj": ["gondar.common.config-1.0-SNAPSHOT", "radiance.common.model-2.0.3", "radiance.common.render-2.0.3", "radiance.common.resource-2.0.3", "radiance.common.util-2.0.3", "radiance.core.app-2.0.3", "radiance.core.datastore-2.0.3", "radiance.core.site-2.0.3", "radiance.extender.dal-2.0.3", "radiance.extender.datastore-2.0.3", "radiance.extender.resource-2.0.3", "radiance.extender.site-2.0.3", "gondar.deploy-1.0-SNAPSHOT", "gondar.bundle.war-1.0-SNAPSHOT", "site_shared.common-1.0.0-SNAPSHOT", "site_shared.site.api-1.0.0-SNAPSHOT", "site_shared.winport.api-1.0.0-SNAPSHOT", "radiance.common.model-2.0.5", "radiance.common.render-2.0.5", "radiance.common.resource-2.0.5", "radiance.common.util-2.0.5", "radiance.core.app-2.0.5", "radiance.core.datastore-2.0.5", "radiance.core.site-2.0.5", "radiance.extender.dal-2.0.5", "radiance.extender.datastore-2.0.5", "radiance.extender.resource-2.0.5", "radiance.extender.site-2.0.5", "radiance.common.model-2.0.6", "radiance.common.render-2.0.6", "radiance.common.resource-2.0.6", "radiance.common.util-2.0.6", "radiance.core.app-2.0.6", "radiance.core.datastore-2.0.6", "radiance.core.site-2.0.6", "radiance.extender.dal-2.0.6", "radiance.extender.datastore-2.0.6", "radiance.extender.resource-2.0.6", "radiance.extender.site-2.0.6", "radiance.common.model-2.0.7", "radiance.common.render-2.0.7", "radiance.common.resource-2.0.7", "radiance.common.util-2.0.7", "radiance.core.app-2.0.7", "radiance.core.datastore-2.0.7", "radiance.core.site-2.0.7", "radiance.extender.dal-2.0.7", "radiance.extender.datastore-2.0.7", "radiance.extender.resource-2.0.7", "radiance.extender.site-2.0.7", "radiance_extender.diamond-2.1.0", "radiance.common.model-2.0.8", "radiance.common.render-2.0.8", "radiance.common.resource-2.0.8", "radiance.common.util-2.0.8", "radiance.core.app-2.0.8", "radiance.core.datastore-2.0.8", "radiance.core.site-2.0.8", "radiance.extender.app-2.0.8", "radiance.extender.dal-2.0.8", "radiance.extender.datastore-2.0.8", "radiance.extender.resource-2.0.8", "radiance.extender.site-2.0.8", "radiance_extender.dataservice-2.1.0", "radiance_extender.template-2.1.0", "radiance.common.model-2.1.1", "radiance.common.render-2.1.1", "radiance.common.resource-2.1.1", "radiance.common.util-2.1.1", "radiance.core.app-2.1.1", "radiance.core.datastore-2.1.1", "radiance.core.site-2.1.1", "radiance.extender.app-2.1.1", "radiance.extender.dal-2.1.1", "radiance.extender.datastore-2.1.1", "radiance.extender.resource-2.1.1", "radiance.extender.site-2.1.1", "radiance_extender.auth-2.1.0", "radiance_extender.dataservice-2.1.1", "radiance_extender.diamond-2.1.1"],
+		"carMaps": {}
+	}]
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+ <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Deploy"
+            id="com.alibaba.app.eclipse.easyweb.commands.deployCategory_html">
+      </category>
+      <category
+            id="com.alibaba.app.eclipse.easyweb.commands.pluginCategory_html"
+            name="Plugin">
+      </category>
+      <command
+            categoryId="com.alibaba.app.eclipse.easyweb.commands.deployCategory"
+            id="com.alibaba.app.eclipse.easyweb.commands.dashboardCommand_html"
+            name="Easyweb Dashboard">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+       <handler
+            commandId="com.alibaba.app.eclipse.easyweb.commands.dashboardCommand_html"
+            class="com.alibaba.app.eclipse.easyweb.actionsets.DashboardHandler">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="com.alibaba.app.eclipse.easyweb.toolbars.easyToolbar_html">
+            <command
+                  commandId="com.alibaba.app.eclipse.easyweb.commands.dashboardCommand_html"
+                  icon="icons/ew.gif"
+                  id="com.alibaba.app.eclipse.easyweb.toolbars.dashboardCommand_html"
+                  style="push">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.alibaba.app.eclipse.easyweb.editors.AppBowserEditor"
+            default="false"
+            icon="icons/ew.gif"
+            id="com.alibaba.app.eclipse.easyweb.appBowserEditor"
+            name="AppBowserEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.alibaba.app.eclipse.easyweb.Startup">
+      </startup>
+   </extension>
+   
+</plugin>

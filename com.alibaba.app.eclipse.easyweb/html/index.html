@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!-- Bootstrap -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>easyweb</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+		<style type="text/css">
+			.breadcrumb {
+				margin: 0 0 5px;
+			}
+		</style>
+		<script type="text/javascript">
+			function changeStatusLine(status) {
+				document.title = status;
+				setTimeout(function() {
+					document.title = "easyweb";
+				}, 500);
+			}
+		</script>
+	</head>
+	<body>
+		<h4  class="page-header" style="margin:5px 0 5px;padding:0">EasyWeb V3<small>致力于解决ali开发环境</small></h4>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span3" id="page_left">
+					
+					<!--Sidebar content-->
+					<ul class="breadcrumb">
+						<li class="active">
+							Web列表
+						</li>
+					</ul>
+					<ul class="nav nav-list" id="app_nav">
+					</ul>
+					<ul class="breadcrumb">
+						<li >
+							<a class="" href="#"><i class="icon-plus"></i>手工添加应用</a>
+						</li>
+					</ul>
+				</div>
+				<div class="span9  hide" id="page_main">
+					<!--Body content-->
+
+				</div>
+			</div>
+		</div>
+
+		<script id="app_list" type="text/x-jquery-tmpl">
+			<li><a class="app-name" data-name="${name}" href="#">${name}</a></li>
+		</script>
+		<script id="app_project_list" type="text/x-jquery-tmpl">
+			{{each prjNames}}
+			<tr>
+			<td><input type="checkbox" disabled /></td>
+			<td>${this}</td>
+			<td></td>
+			<td><span class="label label-inverse">application</span></td>
+			<td>本地</td>
+			<td></td>
+			</tr>
+			{{/each}}
+		</script>
+
+		<script>
+			var now = (new Date()).getTime();
+		</script>
+
+		<script src="libs/jquery-latest.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="libs/jquery.tmpl.js"></script>
+
+		<script type="text/javascript">
+			!(function($) {
+				$.getScript("js/app.js?" + now, function() {
+					//changeStatusLine("function:domOnReady");
+				});
+			})(jQuery)
+		</script>
+	</body>
+</html>

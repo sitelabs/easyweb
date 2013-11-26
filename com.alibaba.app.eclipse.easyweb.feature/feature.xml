@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.alibaba.app.eclipse.easyweb.feature_html"
+      label="Easyweb"
+      version="3.2.0"
+      provider-name="yingjun.jiaoyj">
+
+   <description url="http://www.example.com/description">
+      详细资料请查阅：
+http://b2b-doc.alibaba-inc.com/display/ccbu/Easyweb
+2.0.0版本，增加 组件开发支持
+1.0.6 beta版本：
+修复打开编辑器慢的问题。
+增加对ali-car的支持
+修复之前其他工程导致查找不到阿里工程的bug
+1.0.5版本：
+修复windows环境下路径过长启动不了的bug。
+修复没有提交svn记录，不能执行autoconfig的bug
+1.0.4版本：
+修复Autoconf的bug
+增加start buildclasspath功能
+1.0.3版本：
+修复Autoconf的bug
+1.0.2版本：
+增加启用jetty的http服务，替换apache
+1.0.1版本：
+修复出现重复war工程的bug
+修复autoconf的bug
+1.0.0版本：
+1、支持jetty热部署和调试
+2、支持加载部分工程
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      alibaba-inc
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      详细资料请查阅：
+http://b2b-doc.alibaba-inc.com/display/ccbu/Easyweb
+2.0.0版本，增加 组件开发支持
+1.0.6 beta版本：
+修复打开编辑器慢的问题。
+增加对ali-car的支持
+修复之前其他工程导致查找不到阿里工程的bug
+
+1.0.5版本：
+修复windows环境下路径过长启动不了的bug。
+修复没有提交svn记录，不能执行autoconfig的bug
+1.0.4版本：
+修复Autoconf的bug
+增加start buildclasspath功能
+1.0.3版本：
+修复Autoconf的bug
+1.0.2版本：
+增加启用jetty的http服务，替换apache
+1.0.1版本：
+修复出现重复war工程的bug
+修复autoconf的bug
+1.0.0版本：
+1、支持jetty热部署和调试
+2、支持加载部分工程
+   </license>
+
+   <plugin
+         id="com.alibaba.app.eclipse.easyweb_html"
+         download-size="0"
+         install-size="0"
+         version="3.2.0"/>
+
+</feature>

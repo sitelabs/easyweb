@@ -1,0 +1,94 @@
+
+<div class="row">
+	<div class="col-xs-12">
+		<!-- PAGE CONTENT BEGINS -->			
+		<h3 class="header smaller lighter green">
+			资源列表
+		</h3>
+		<form class="form-search">
+			<div class="input-group">
+				<span class="table-controls">
+					<button class="btn btn-xs btn-info" data-toggle="dialog" data-keyboard="false" data-remote="assetsForm.html" data-target="#modal_container"> <i class="icon-plus bigger-120"></i>
+						添加
+					</button>
+					
+					
+					<button class="btn btn-xs btn-danger">
+						<i class="icon-trash bigger-120"></i>
+						删除
+					</button>
+				</span>
+				<span class="input-group-btn">
+					<input type="text" placeholder="模块名称" class=" search-query">			
+					<select class="search-query">
+						<option>全部类型</option>
+						<option>application</option>
+						<option>module</option>
+						<option>site</option>
+						<option>app</option>
+					</select>
+					
+					<button class="btn btn-purple btn-sm" type="button">
+						Search
+						<i class="icon-search bigger-110"></i>
+					</button>
+				</span>
+			</div>
+		</form>
+
+		<table class="table table-striped table-bordered table-hover" style="margin-bottom:5px;">
+			<thead class="thin-border-bottom">
+				<tr>
+					<th></th>
+					<th>
+						<i class="icon-key"></i>
+						资源名称
+					</th>
+					<th>资源类型</th>
+					<th>资源所有者</th>
+					<th>资源版本</th>
+					<th>资源创建时间</th>
+					<th>资源修改时间</th>
+					<th></th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td class="center">
+						<input type="checkbox" />			
+					</td>
+					<td class="">module.offer</td>
+					<td>module</td>
+					<td>焦哥</td>
+					<td>1.0.0</td>
+					<td>2013.10.8</td>
+					<td>2013.10.8</td>
+					<td class="center">
+						<button class="btn btn-xs btn-info">
+							<i class="icon-edit bigger-120"></i>
+							修改
+						</button>
+					</td>
+				</tr>
+				
+
+			</tbody>
+		</table>
+		<div class="center">
+			<a href="#" class="icon-double-angle-left bigger-140"></a>
+			<a href="#" class="icon-angle-left bigger-140"></a>
+			Page
+			<input type="text"  value="1" maxlength="7" size="2" class="input-small" style="width:40px;">			
+			of
+			<span id="sp_1_grid-pager">3</span>
+			<a href="#" class="icon-angle-right bigger-140"></a>
+			<a href="#" class="icon-double-angle-right bigger-140"></a>
+			<span class="pull-right">view 1-10 of 23</span>
+		</div>
+
+		<!-- PAGE CONTENT ENDS -->			
+	</div>
+	<!-- /.col -->			
+</div>
+<!-- /.row -->			

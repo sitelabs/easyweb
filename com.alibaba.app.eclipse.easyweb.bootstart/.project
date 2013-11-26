@@ -1,0 +1,13 @@
+<projectDescription>
+  <name>com.alibaba.app.eclipse.easyweb.bootstart-1.0-SNAPSHOT</name>
+  <comment>Super POM for CHINA-SITE Projects that migrated from AntX</comment>
+  <projects/>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>
